@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(163, 170, 177);
+}
+
+header {
+    background-color: darkslategrey;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#title{
+    color:palegoldenrod;
+    text-shadow: 2px 1px 5px gray;
+    font-size: 128px;
+}
+
+.requirementContainer {
+    margin: 50px;
+    display: block;
+}
+
+.checkBoxes {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    height: 44px;
+    width: 44px;
+    float: left;
+}
+
+.labels {
+    font-size: 64px;
+    font-weight:bold;
+    color:chocolate;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.textBox {
+    -webkit-text-stroke: 0px;
+    height: 48px;
+    width: 256px;
+    vertical-align: middle;
+}
+
+#generateBtn {
+    display: block;
+    height: 48px;
+    width: 128px;
+    font-size: 28px;
+    margin: 0 auto;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#resultText {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    color:cyan;
+    visibility: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
